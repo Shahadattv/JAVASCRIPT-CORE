@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>click handeller</title>
+</head>
+
+<body>
+    <!-- H1 onclick  is inline script -->
+    <h1 onclick="alert(' Are you ok?')">This is on click</h1>
+
+    <br/>
+
+    <!-- =================================================== -->
+
+    <!-- button1 inline -->
+    <button onclick="document.body.style.backgroundColor='yellow'">Button1</button>
+
+    <br/>
+
+    <!-- =================================================== -->
+
+    <!-- button2 is inside script in html-->
+    <button onclick="gbColor()">Button2</button>
+
+    <br/>
+
+    <!-- =================================================== -->
+
+    <!-- button3 external script -->
+    <button onclick="gbColorRed()">Button3</button>
+
+
+    <br/>
+    <!-- =================================================== -->
+
+    <!-- button external script by id-->
+    <button id="BG">Button4</button>
+
+    <br/>
+
+    <!-- =================================================== -->
+
+    <!-- button external script by id inline function is anonimas function-->
+    <button id="BGKK">Button5</button>
+
+    <br/>
+
+    <!-- ===================================================== -->
+
+    <!-- button external script by id addEventListner function-->
+    <button id="BGSS">Button6</button>
+
+    <br/>
+
+    <!-- ===================================================== -->
+
+    <!-- ===================================================== -->
+
+    <!-- button external script by  direct id addEventListner  add text in html function-->
+    <button id="sogir">Button7</button>
+    <p id="shahid"></p>
+
+    <br/>
+
+    <!-- ===================================================== -->
+
+
+    <!-- button external script by update input direct id addEventListner  add text in html function-->
+    <button id="maru">Button8</button>
+    <input id="bithee" type="text">
+
+    <!-- ===================================================== -->
+
+
+    <!-- comment  -->
+    <section>
+        <h3>Add your comment</h3>
+        <div id='arapat'>
+            <p>Lorem m qeuptatum fugiat perferendis delo, ullam.</p>
+            <p>Voluptuntalat dolor reprehenderit culpa simus.</p>
+            <p>Voluptatictis nam exercitationem praesenfficiis id magni!
+            </p>
+
+        </div>
+        <div class="ksa">
+            <textarea name="" id="new-comment" cols="20" rows="3"></textarea>
+            <br/>
+            <button id="post">Post</button>
+        </div>
+    </section>
+
+
+    <!-- delete event -->
+    <section>
+        <h3>Delete Event</h3>
+        <div>
+            <p id="secret">very very impintant</p>
+        </div>
+        <input id="delete-confarm" type="text" placeholder="type delete">
+        <button id="delete-btn" disabled>Delete</button>
+
+    </section>
+
+
+
+
+
+    <!-- script tag=====================================================-->
+    <!-- script tag=====================================================-->
+    <!-- script tag ====================================================-->
+
+    <!-- external script -->
+    <script src='./event.js'></script>
+
+    <!-- inside html -->
+    <script>
+        function gbColor() {
+            document.body.style.backgroundColor = 'green';
+        }
+    </script>
+
+</body>
+
+</html>

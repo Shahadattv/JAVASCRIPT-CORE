@@ -1,0 +1,12 @@
+.babu {
+    background-color: ivory;
+    border: 3px solid green;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+}
+
+#country {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
